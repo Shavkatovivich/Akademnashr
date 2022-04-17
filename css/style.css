@@ -17,6 +17,9 @@ body {
     align-items: center;
     justify-content: space-between;
     background-color: #fff;
+    border-top: 5px solid #FF7500;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
 .logo-link {
@@ -39,6 +42,7 @@ body {
 .sitenav-list {
     display: flex;
     list-style: none;
+    padding: 0;
 }
 
 .sitenav-link {
@@ -61,7 +65,8 @@ body {
 }
 
 .main-link {
-    font-weight: 700;
+    display: inline-block;
+    font-weight: bold;
     font-size: 13px;
     line-height: 15px;
     letter-spacing: 0.5px;
@@ -69,6 +74,11 @@ body {
     background-color: #FF7500;
     text-decoration: none;
     transition: opacity 0.4s ease;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 24px;
+    padding-left: 24px;
+    border-radius: 4px;
 }
 
 .main-link:hover {
@@ -85,6 +95,8 @@ body {
     justify-content: space-between;
     background-color: #252420;
     color: #fff;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .hero-content {
@@ -95,6 +107,7 @@ body {
     width: 80px;
     height: 1px;
     background-color: #FF7500;
+    border: 0;
 }
 
 .hero-heading {
@@ -110,12 +123,19 @@ body {
 .hero-img {
     width: 510px;
     height: 510px;
+    border-radius: 8px;
+}
+
+.features {
+    padding-top: 210px;
+    padding-bottom: 210px;
 }
 
 .features-list {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
+    padding: 0;
 }
 
 .features-heading {
@@ -131,9 +151,13 @@ body {
 }
 
 .features-icon-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100px;
     height: 100px;
     background-color: rgba(255, 117, 0, 0.2);
+    border-radius: 50%;
 }
 
 .features-title {
@@ -151,6 +175,9 @@ body {
     justify-content: space-between;
     background-color: #252420;
     color: #fff;
+    border-radius: 12px;
+    /* padding-top: 120px;
+    padding-bottom: 160px; */
 }
 
 .promo-content {
@@ -171,10 +198,13 @@ body {
 .promo-img {
     width: 440px;
     height: 440px;
+    border-radius: 12px;
     object-fit: cover;
 }
 
 .site-footer {
+    padding-top: 56px;
+    padding-bottom: 56px;
     background-color: rgba(248, 248, 248, 1);
 }
 
@@ -191,6 +221,7 @@ body {
 .site-footer-socials {
     display: flex;
     align-items: center;
+    padding: 0;
 }
 
 .site-footer-socials a {
@@ -202,6 +233,7 @@ body {
 }
 
 .site-footer-divider {
+    border: 0;
     background-color: rgba(37, 36, 32, 0.5);
 }
 
