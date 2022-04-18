@@ -1,8 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Roboto',"Arial", sans-serif;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.5px;
+    margin: 0;
+    padding: 0;
 }
 
 *:focus {
@@ -10,16 +16,30 @@ body {
     outline-offset: 3px;
 }
 
+/* CONTINER */
+
+.container {
+    max-width: 100%;
+    width: 1140px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* SITE-HEADER */
 
 .site-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     background-color: #fff;
     border-top: 5px solid #FF7500;
     padding-top: 16px;
     padding-bottom: 16px;
+}
+
+.site-header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .logo-link {
@@ -104,13 +124,16 @@ body {
 }
 
 .hero {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     background-color: #252420;
     color: #fff;
     padding-top: 80px;
     padding-bottom: 80px;
+}
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .hero-content {
@@ -147,6 +170,7 @@ body {
     width: 510px;
     height: 510px;
     border-radius: 8px;
+    box-shadow: 24px 24px 0px rgba(255, 117, 0, 0.6);
 }
 
 .features {
@@ -189,6 +213,7 @@ body {
     height: 100px;
     background-color: rgba(255, 117, 0, 0.2);
     border-radius: 50%;
+    margin-bottom: 32px;
 }
 
 .features-title {
@@ -198,17 +223,26 @@ body {
     line-height: 120%;
     letter-spacing: 0.5px;
     color: #000000;
+    margin-bottom: 12px;
 }
 
+.features-info {
+    margin: 0;
+}
 
 .promo {
+    padding-top: 120px;
+    padding-bottom: 160px;
+}
+
+.promo-inner {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: #252420;
     color: #fff;
     border-radius: 12px;
-    /* padding-top: 120px;
-    padding-bottom: 160px; */
+    padding: 64px;
 }
 
 .promo-content {
@@ -310,6 +344,14 @@ body {
     margin-right: 68px;
     list-style: none;
     line-height: 19px;
+}
+
+.site-footer-links  {
+    margin-bottom: 16px;
+}
+
+.site-footer-links:last-child {
+    margin-bottom: 0;
 }
 
 .site-footer-links:last-child {
