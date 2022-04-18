@@ -43,6 +43,16 @@ body {
     display: flex;
     list-style: none;
     padding: 0;
+    margin: 0;
+    margin-right: 32px;
+}
+
+.sitenav-item {
+    margin-right: 32px;
+}
+
+.sitenav-item:last-child {
+    margin-right: 0;
 }
 
 .sitenav-link {
@@ -108,6 +118,8 @@ body {
     height: 1px;
     background-color: #FF7500;
     border: 0;
+    margin: 0;
+    margin-bottom: 40px;
 }
 
 .hero-heading {
@@ -117,6 +129,13 @@ body {
     line-height: 120%;
     letter-spacing: 0.5px;
     color: #FFFFFF;
+    margin: 0;
+    margin-bottom: 24px;
+}
+
+.hero-text {
+    margin-top: 0;
+    margin-bottom: 32px;
 }
 
 
@@ -133,9 +152,10 @@ body {
 
 .features-list {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     list-style-type: none;
     padding: 0;
+    margin: 0;
 }
 
 .features-heading {
@@ -144,10 +164,17 @@ body {
     font-size: 72px;
     line-height: 1.2;
     letter-spacing: 0.5;
+    margin-top: 0;
+    margin-bottom: 72px;
 }
 
 .feature {
     width: 340px;
+    margin-right: 40px;
+}
+
+.feature:last-child {
+    margin-right: 0;
 }
 
 .features-icon-wrapper {
@@ -188,6 +215,21 @@ body {
     font-family: 'Roboto Condensed';
     font-style: 40px;
     line-height: 48px;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+.promo-info-wrapper {
+    margin-bottom: 24px;
+}
+
+.promo-text {
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.promo-text:last-child {
+    margin-bottom: 0;
 }
 
 
@@ -222,10 +264,24 @@ body {
     display: flex;
     align-items: center;
     padding: 0;
+    margin: 0;
+}
+
+.site-footer-socials li {
+    margin-right: 16px;
+}
+
+.site-footer-socials li:last-child {
+    margin-right: 0;
 }
 
 .site-footer-socials a {
+    display: block;
     color: #222;
+}
+
+.site-footer-socials svg {
+    display: block;
 }
 
 .site-footer-socials a:hover {
@@ -233,6 +289,8 @@ body {
 }
 
 .site-footer-divider {
+    margin-top: 40px;
+    margin-bottom: 64px;
     border: 0;
     background-color: rgba(37, 36, 32, 0.5);
 }
@@ -243,6 +301,15 @@ body {
 
 .site-footer-links {
     width: 224px;
+    padding: 0;
+    margin: 0;
+    margin-right: 68px;
+    list-style: none;
+    line-height: 19px;
+}
+
+.site-footer-links:last-child {
+    margin-right: 0;
 }
 
 .site-footer-links a {
